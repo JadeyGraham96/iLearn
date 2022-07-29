@@ -1,0 +1,234 @@
+/*  Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@200;300;400;443;500&display=swap');
+/*  1001 fonts import */
+@font-face {
+    font-family: Norwester;
+    src: url(../fonts/norwester.otf);
+}
+@font-face {
+    font-family: acari-sans;
+    src: url(../fonts/acari-sans.medium.ttf);
+}
+html {
+    position: relative;
+}
+/*  cat animation styles */
+div.cat {
+    position: absolute;
+    right: 65px;
+    bottom: 25px;
+}
+img.cat {
+    height: auto;
+    cursor: pointer;
+}
+/*  col 12 styles */
+.col-12 {
+    margin-bottom: 140px;
+}
+/*  heading text styles */
+h1 {
+    font-size: 85px !important;
+    color: #fff;
+    text-shadow: 3px 4px 1px rgb(0 0 0 / 25%);
+    font-family: 'Fjalla One', sans-serif;
+}
+.top-header {
+  
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 70px;
+  
+}
+.top-header.row {
+    width: 100%;
+}
+.top-header.row {
+    width: 100%;
+    margin: 50px 15px;
+}
+/*  puzzle section for god game styles */
+.puzzle-section.row {
+    width: 100%;
+    margin-left: 1px;
+    background: #fff;
+    border: 11px solid;
+    padding: 35px 12px;
+}
+.challenge-bottom {
+    padding: 10px;
+    justify-content: center;
+}
+input.textBox1 {
+    border-radius: 14px;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+input.textBox2 {
+    border-radius: 14px;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+input.textBox3 {
+    border-radius: 14px;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+img.right {
+    margin-left: 20px;
+    padding-left: 80px;
+}
+.puzzle-section {
+    margin-left: 244px;
+}
+img.left {
+    border: 12px solid black;
+    width: 100%;
+    height: 543px;
+}
+.challenge-bottom {
+    padding: 10px;
+    justify-content: center;
+}
+/*  container width */
+.container-fluid {
+    max-width: 1024px;
+}
+
+/*  button styles */
+
+button.submitBttn {
+    border-radius: 15px;
+    color: #fff;
+    background-color: green;
+    border: 2px solid black;
+}
+button.submitBttn2 {
+    border-radius: 15px;
+    color: #fff;
+    background-color: green;
+    border: 2px solid black;
+}
+button.submitBttn3 {
+    border-radius: 15px;
+    color: #fff;
+    background-color: green;
+    border: 2px solid black;
+}
+
+/*  body color */
+body {
+    background-color: #cf0053 !important;
+}
+
+/*  Nav bar styles */
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    border-bottom: 3px solid #7ed957;
+    width: 100%;
+    height: 60px;
+}
+ul.navbar-nav {
+    padding: 3px;
+}
+img.logo {
+    width: 2%;
+}
+ /*  Setting navbar colour to dark*/
+ .bg-dark {
+    background-color: #000!important;
+}
+ /* Positioning of nav bar text*/
+ul.navbar-nav {
+    /* align-items: end; */
+    right: 40px;
+    align-items: flex-end;
+    position: absolute;
+}
+ /* Navbar brand styles */
+a.navbar-brand {
+    margin-left: 230px;
+    font-family: 'Oswald', sans-serif;
+}
+/*  footer styles */
+footer {
+    text-align: center;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    background-color: #353a40;
+    color: white;
+    padding: 20px;
+    bottom: 0;
+}
+/*  input colour when disabled */
+input:disabled {
+    background-color: #cacaca !important;
+}
+input[type='text'] {
+    border-radius: 14px;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+div.cat {
+    position: absolute;
+    right: 65px;
+    bottom: 70px;
+}
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px) and (max-width:961px)  { 
+    h2 {
+        font-size: 50px !important;
+    }
+    header {
+        position: fixed;
+        width: 100%;
+        z-index: 9999999;
+    }
+    .container-fluid {
+        padding-top: 60px;
+        padding-bottom: 90px;
+    }
+    .text-area {
+        padding: 23px;
+        border: 10px solid #286d76;
+        margin-top: 4px;
+    }   
+    .col-6 {
+        display: flex;
+        margin: 44px !important;
+        padding-bottom: 23px;
+        -webkit-box-flex: 0;
+        width: 100% !important;
+        max-width: 100% !important;
+        flex-grow: 2;
+    } 
+    ul.navbar-nav {
+        background-color: #000000ba;
+        box-shadow: 0px 7px 11px #01282aa1;
+        top: 60px;
+        right: 0;
+        left: 0;
+        z-index: 999;
+    }
+    ul.navbar-nav li {
+        display: block;
+        width: 100%;
+    }
+    ul.navbar-nav a {
+        text-align: center;
+    }
+    div.cat {
+        margin-bottom: 46px;
+    }
+    img.right {
+        width: 50%;
+    }
+}

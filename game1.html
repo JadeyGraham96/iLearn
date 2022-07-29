@@ -1,0 +1,86 @@
+<html lang="en">
+  <head><!-- Head include of scripts, styles and CDN for bootstrap and jquery -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="styles/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Learning Website</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="scripts/game1.js"></script>
+  </head><!-- End of head -->
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img class ="logo" src="images/logo.svg" alt="i-learn logo" href="index.html">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#defaultNavbar1" aria-controls="defaultNavbar1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="defaultNavbar1">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="learn.html">LEARN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="games.html">GAMES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="info.html">INFORMATION</a>
+                </li>
+              </ul>
+            </div> <!-- /.navbar collapse -->
+        </nav><!-- End of nav -->
+    </header><!-- End of header -->
+    <body>
+         <div class="container-fluid">
+                <div class="row">
+                    <div class="top-header row"><!-- text header -->
+                        <h1>CODE BREAKER</h1>
+                    </div> <!-- End of top-header -->  
+                    <div class="col-6">
+                        <img class="left" src="images/hieroglyph.png">
+                    </div> <!-- End of col 6 section 1 -->   
+                    <div class="col-6">
+                        <div class="puzzle-section row">
+                            <div class='challenge'>
+                                <img class="right"src="images/puzzle1.png">
+                                <div class="challenge-bottom">
+                                    <input type="text" class="textBox1" placeholder="Puzzle one...">
+                                    <button type="submit" class="submitBttn btn1">Submit</button>
+                                </div><!-- End of challenge bottom -->  
+                            </div><!-- End of challenge section 1 -->  
+
+                            <div class='challenge'>
+                                <img  class="right"src="images/puzzle2.png">
+                                <div class="challenge-bottom">
+                                    <input type="text" class="textBox2" placeholder="Puzzle two...">
+                                    <button type="submit" class="submitBttn btn2">Submit</button>
+                                </div><!-- End of challenge bottom -->  
+                            </div><!-- End of challenge section 2 -->  
+                            
+
+                            <div class='challenge'>
+                                <img  class="right"src="images/puzzle3.png">
+                                <div class="challenge-bottom">
+                                    <input type="text" class="textBox3" placeholder="Puzzle three...">
+                                    <button type="submit" class="submitBttn btn3">Submit</button>
+                                </div><!-- End of challenge bottom -->  
+                            </div><!-- End of challenge section 3 -->  
+                        </div><!-- End of puzzles -->  
+                    </div><!-- End of col 6 section 2 -->  
+                    <div class=cat>
+                        <img class="cat" src="images/cat.png">
+                    </div><!-- End of cat bottom -->  
+                      
+                </div><!--Row ends here -->          
+            </div><!-- End of container fluid-->  
+    </body><!-- End of body -->  
+    <footer class= "bg-dark">
+        <span>JADE GRAHAM 2021&copy;</span>
+    </footer><!-- End of footer -->  
+</html>

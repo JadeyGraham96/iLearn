@@ -1,0 +1,151 @@
+ /*  col styles */
+.col-6 {
+    padding-bottom: 30px;
+}
+.col-4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}   
+ /*  Button styles*/
+  button.gameBttn {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    padding: 13px;
+}
+ /*  Text styles*/
+h1{
+    margin:0;
+}
+h2{
+    padding: 20px;
+}
+
+/*  footer styles*/
+footer {
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    background-color: #353a40;
+    color: white;
+    padding: 20px;
+}
+/*  Navbar styles*/
+.bg-dark {
+    background-color: #000!important;
+}
+ /* Positioning of nav bar text*/
+ul.navbar-nav {
+    /* align-items: end; */
+    right: 40px;
+    align-items: flex-end;
+    position: absolute;
+}
+ /* Navbar brand styles */
+a.navbar-brand {
+    margin-left: 230px;
+    font-family: 'Oswald', sans-serif;
+}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    border-bottom: 3px solid #7ed957;
+    width: 100%;
+    height: 60px;
+}
+ul.navbar-nav {
+    padding: 3px;
+}
+img.logo {
+    width: 2%;
+}
+/*  container styles*/
+.content {
+    width: 100%;
+    background-color: #286d76;
+    color: white;
+    height: 100%;
+    padding-bottom: 90px;
+}
+.container-fluid.games {
+    width: 100%;
+    background-color: #8FA19E;
+    color: white;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 90px;
+}
+
+/*  iframe styles*/
+iframe {
+    width: 100%;
+    height: auto;
+}
+/*  top section styles*/
+.top-section {
+    width: 100%;
+    height: auto;
+}
+.top-section img {
+    width: 100%;
+    height: auto;
+}
+footer {
+    text-align: center;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    background-color: #353a40;
+    color: white;
+    padding: 20px;
+    bottom: 0;
+}
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px) and (max-width:961px)  { 
+    h2 {
+        font-size: 50px !important;
+    }
+    header {
+        position: fixed;
+        width: 100%;
+        z-index: 9999999;
+    }
+    .container-fluid {
+        padding-top: 60px;
+    }
+    .text-area {
+        padding: 23px;
+        border: 10px solid #286d76;
+        margin-top: 4px;
+    }   
+    .col-6 {
+        display: flex;
+        margin: 44px !important;
+        padding-bottom: 23px;
+        -webkit-box-flex: 0;
+        width: 100% !important;
+        max-width: 100% !important;
+        flex-grow: 2;
+    } 
+    ul.navbar-nav {
+        background-color: #000000ba;
+        box-shadow: 0px 7px 11px #01282aa1;
+        top: 60px;
+        right: 0;
+        left: 0;
+        z-index: 999;
+    }
+    ul.navbar-nav li {
+        display: block;
+        width: 100%;
+    }
+    ul.navbar-nav a {
+        text-align: center;
+    }
+}

@@ -1,0 +1,96 @@
+<html lang="en">
+  <head><!-- Head include of scripts, styles and CDN for bootstrap and jquery -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="styles/info.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Learning Website</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="scripts/info.js"></script>
+  </head><!-- End of head -->
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img class ="logo" src="images/logo.svg" alt="i-learn logo" href="index.html">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#defaultNavbar1" aria-controls="defaultNavbar1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="defaultNavbar1">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="learn.html">LEARN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="games.html">GAMES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="info.html">INFORMATION</a>
+                </li>
+              </ul>
+            </div> <!-- /.navbar collapse -->
+        </nav><!-- End of nav -->
+    </header><!-- End of header -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="top-section">
+                    <img src="images/info.png">
+                </div><!--End of banner -->
+                <div class=col-4>
+                    <img class="left top-image" src="images/family.png">
+                    <img class="bottom top-image" src="images/help.png">
+                </div><!--End of left col -->
+                <div class=col-3>
+                    <img class="middle top-image" src="images/infor.png">
+                    <br>
+                    <img class="middle bottom-image" src="images/Information (8).png">
+                </div><!--End of middle col -->
+                <div class=col-5>
+                    <div class="supportArea">
+                        <h2>How to support learning</h2>
+                        <h3>Make learning a fun enviroment!</h3>
+                        <p>It's important to make your space or home a perfect enviroment for teaching and learning, and most importantly having fun whilst doing it!</p>
+                        <p>The topics are super critical within your child's development and following the curriculum at home will help you and your child gain the knowledge and tools to complete these lessons, Learning at home also helps maintain that thirst for knowledge and understanding with everything at hand.</p>
+                        <p>An engaging subject like KS2 History: Ancient Egypt is an amazing way to learn all about the facts and Egyptian lifestyle.</p>
+                        <p>To help with learning at home, support and tips are available to watch on our video tutorial.</p>
+                    </div> <!--End of text area -->
+                </div><!--End of right col -->
+                <div class=col-6>
+                    <video controls>
+                        <source src="videos/5 Tips for Parents and Guadians.mp4" type="video/mp4">
+                      </video><!--End of video -->
+                </div><!--End of video section -->
+                <div class=col-6>
+                    <div class="signupArea">
+                        <div class="signArea" id="signup">
+                            <div class="hidden thankyou col">
+                                <p>Thank you!</p>
+                                <p>Your now subscribed to our monthly news letter!</p>
+                            </div><!--End of sign up text -->
+                            <div class="col form">
+                                <form>
+                                  <div class="form-group">
+                                    <h2>Sign up to our newsletter today!</h2>
+                                    <input type="text" class="form-control" id="name" placeholder="Name...">
+                                    <br>
+                                    <input type="email" class="form-control" id="email" placeholder="Email...">
+                                    <br> 
+                                  </div>
+                                  <button id="signBttn" class="btn btn-primary">Submit</button>
+                                </form><!--End of form-->
+                            </div> <!--End of sign up form -->
+                        </div><!--End of sign up area -->
+                    </div> <!--End of newsletter section-->
+                </div><!--End of area -->
+            </div><!--End of row -->
+        </div><!--End of container -->
+    </body>
+    <footer class= "bg-dark">
+        <span>JADE GRAHAM 2021&copy;</span>
+      </div><!--End of footer -->
+</html>
